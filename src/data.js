@@ -10,15 +10,6 @@ let arr_zone = ['Зона 1', 'Зона 2', 'Зона 3', 'Зона 4', 'Зон�
 let arr_event_code = [3456, 7643, 9170, 6490, 1780, 9217, 5555, 1385, 1983];
 let arr_operator = ['Виктор', 'Максим', 'Владимир', 'Николай', 'Сергей', 'Григорий'];
 
-// Получаем случайный ключ массива
-// let rand_device_time = Math.floor(Math.random() * arr_device_time.length);
-// let rand_description = Math.floor(Math.random() * arr_description.length);
-// let rand_device = Math.floor(Math.random() * arr_device.length);
-// let rand_address_device = Math.floor(Math.random() * arr_address_device.length);
-// let rand_zone = Math.floor(Math.random() * arr_zone.length);
-// let rand_event_code = Math.floor(Math.random() * arr_event_code.length);
-// let rand_operator = Math.floor(Math.random() * arr_operator.length);
-
 let arr = [];
 for (let i = 0; i < 50; i++) {
     let rand_device_time = Math.floor(Math.random() * arr_device_time.length);
